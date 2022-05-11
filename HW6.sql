@@ -30,7 +30,4 @@ create table customers_orders_association
     constraint customers_orders_association_customers_id_fk
         foreign key (customerId) references customers (id),
     constraint customers_orders_association_orders_id_fk
-        foreign key (orderId) references orders (id)
-);
-
-
+        foreign key (orderId) references orders (i
